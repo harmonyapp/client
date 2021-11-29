@@ -1,6 +1,11 @@
+import { Routes, Route } from "react-router-dom";
+import Landing from "./containers/Landing/Landing";
+
 const App: React.FC = () => {
     return (
-        <div>App</div>
+        <Routes>
+            <Route path="/" element={<Landing />} />
+        </Routes>
     );
 };
 

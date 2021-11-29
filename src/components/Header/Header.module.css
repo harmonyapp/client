@@ -1,0 +1,45 @@
+.Header {
+    height: 70px;
+}
+
+.InnerContent {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo a {
+    font-family: "Ubuntu-Medium";
+    font-size: 32px;
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+.Navigation {
+    font-family: "Roboto-Medium";
+}
+
+.Navigation a {
+    color: #c7c7c7;
+    margin-left: 23px;
+    text-decoration: none;
+    transition: .1s;
+}
+
+.Navigation a:hover {
+    color: #ffffff;
+}
+
+.LoginButton {
+    background-color: #ffffff;
+    border: none;
+    color: #111113;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-family: "VarelaRound-Regular";
+    cursor: pointer;
+}
